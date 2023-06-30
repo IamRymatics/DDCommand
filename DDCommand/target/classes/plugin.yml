@@ -1,0 +1,27 @@
+name: DDCommand
+version: '1.0-SNAPSHOT'
+main: org.ledat.ddcommand.LinkCommandsPlugin
+api-version: 1.19
+folia-supported: true
+commands:
+  discord:
+    description: Show Discord link
+    usage: /discord
+    aliases:
+      - 2y2cdiscord
+  donate:
+    description: Show donation link
+    usage: /donate
+    aliases:
+      - napthe
+  dev-real:
+    description: Show developer's real link
+    usage: /dev-real
+    aliases:
+      - developer
+      - dev
+  joindate:
+    description: Xem ngày tham gia
+    usage: /joindate
+    aliases:
+      - ngaythamgia
